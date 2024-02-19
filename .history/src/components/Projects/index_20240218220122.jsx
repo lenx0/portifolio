@@ -32,7 +32,6 @@ export default function Projects() {
         }}
       >
         <ProjectPokemonWiki />
-        <ProjectDelivery />
       </Box>
     </>
   );

@@ -31,7 +31,9 @@ export default function Projects() {
           minHeight: "100vh",
         }}
       >
-        <ProjectPokemonWiki />
+        <ProjectDelivery />
+        <ProjectDelivery />
+        <ProjectDelivery />
         <ProjectDelivery />
       </Box>
     </>

@@ -1,7 +1,6 @@
 import { Box, Typography } from "@mui/material";
 
-import ProjectDelivery from "../ProjectDelivery";
-import ProjectPokemonWiki from "../ProjectPokemonWiki";
+import ProjectsCard from "../ProjectsCard";
 
 export default function Projects() {
   return (
@@ -31,7 +30,9 @@ export default function Projects() {
           minHeight: "100vh",
         }}
       >
-        <ProjectPokemonWiki />
+        <ProjectDelivery />
+        <ProjectDelivery />
+        <ProjectDelivery />
         <ProjectDelivery />
       </Box>
     </>
