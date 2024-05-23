@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #999;
+  border-radius: 10px;
+  overflow: hidden; /* Impede que as bolinhas saiam da caixa */
+}
+
+.ball-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  animation: move 4s linear infinite; /* Aplica a animação de movimento */
+}
+
+@keyframes move {
+  0% {
+    transform: translate(-20px, -20px); /* Começa fora da caixa no canto superior esquerdo */
+  }
+  100% {
+    transform: translate(220px, 220px); /* Movimento máximo para fora da caixa no canto inferior direito */
+  }
+}
